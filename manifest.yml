@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Expose Mercury DB
+  host: expose-mercury-db
+  disk_quota: 1024M
+  services:
+  - Mercury Sample SQL DB
